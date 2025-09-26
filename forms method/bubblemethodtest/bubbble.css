@@ -1,0 +1,41 @@
+div{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    background-image: url("/image/1_1_11zon.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.image1{
+    background-image: url("/image/image1.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.image2{
+    background-image: url("/image/image3.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+#grandParent{
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+}
+#parent{
+    background-color: skyblue;
+    width: 200px;
+    height: 200px;
+}
+#child{
+    background-color: rgb(208, 95, 46);
+    width: 100px;
+    height: 100px;
+}

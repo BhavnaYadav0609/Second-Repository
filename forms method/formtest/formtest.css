@@ -1,0 +1,20 @@
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+}
+.second-div{
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: blueviolet;
+}
+#first-name{
+   margin: 10px;
+   padding: 10px;
+}
+#number-div{
+    margin: 10px;
+   padding: 10px;
+}

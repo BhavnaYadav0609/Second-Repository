@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="formtest.css" />
+  </head>
+  <body>
+    <form action="#" name="myForm" onsubmit="MyFormChanges()">
+      <div class="main-div">
+        <div class="second-div">
+          <label for="test"></label>
+          FirstName:<input
+            id="first-name"
+            type="text"
+            name="first-input"
+          /><br />
+          Number:<input
+            id="number-div"
+            type="number"
+            name="second-input"
+          /><br />
+          <input type="submit" id="sub" />
+        </div>
+      </div>
+    </form>
+    <script src="formtest.js"></script>
+  </body>
+</html>

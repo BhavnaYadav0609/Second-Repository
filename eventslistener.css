@@ -1,0 +1,15 @@
+.back{
+    width: 250px;
+    color: chartreuse;
+    background-color: black;
+    border: 2px solid chartreuse;
+    border-radius: 5px;
+}
+.back1{
+    width: 250px;
+    color:red;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 5px;
+    height: 20px;
+}
